@@ -1,0 +1,188 @@
+.home{
+
+    background: url(../public/white-matrix.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 100%;
+}
+
+.comment {
+    margin-bottom: 1%;
+}
+
+.comment .comment-header {
+    overflow: hidden;
+    position: relative;
+    background-color:#55737D;
+    color:#FFFFFF;
+    padding: 10px;
+}
+
+.comment .comment-body {
+    background-color: lightgrey;
+}
+
+.comment .comment-header .author {
+    padding-left: 5%;
+}
+
+.comment .comment-header .upvotes {
+    padding-left: 10%;
+}
+
+.equal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.issue {
+    margin-bottom: 1%;
+}
+
+.issue-header {
+    font-size: 1.875em;
+}
+
+.issue-detail textarea {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.issue-description {
+    text-align: left;
+}
+
+.kpi-indicators .col-md-12 {
+    display:block;
+    text-align:center;
+}
+
+.kpi-header {
+    font-weight: bold;
+    color: white;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+    background-color: #55737D;
+}
+
+
+.kpi-priority.high {
+    color: white;
+    background-color: red;
+}
+
+.kpi-priority.medium {
+    color: white;
+    background-color: blue;
+}
+
+.kpi-priority.low {
+    color: white;
+    background-color: green;
+}
+
+.kpi-workdays.high {
+    color: white;
+    background-color: red;
+}
+
+.kpi-workdays.medium {
+    color: white;
+    background-color: blue;
+}
+
+.kpi-workdays.low {
+    color: white;
+    background-color: green;
+}
+
+.kpi-complete.complete {
+    color: white;
+    background-color: green;
+}
+
+.kpi-complete.incomplete {
+    color: white;
+    background-color: red;
+}
+
+td.low {
+    background-color: lightgreen;
+}
+
+td.medium {
+    background-color: lightblue;
+}
+
+td.high {
+    background-color: palevioletred;
+}
+
+.issue-table-controls {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.issue-table {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.issue-table tfoot {
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+.sprint-table {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sprint-table tfoot {
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+.row-error {
+    border: 2px solid red;
+}
+
+.cell-error {
+    background-color: indianred;
+}
+
+.error-message {
+    background-color: aliceblue;
+    color: red;
+}
+
+td > .btn.post {
+    width: 100%;
+    background-color: lightblue;
+}
+
+td > .btn.delete {
+    width: 100%;
+    color: white;
+    background-color: indianred;
+}
+
+ul.news-list {
+    list-style: none;
+    padding: 0px;
+}
+
+ul.news-list > li.news-list-item > .prop {
+    margin: 1%;
+}
+
+ul.news-list > li.news-list-item > .datestring {
+    font-weight: bold;
+}
+
+.pointer {
+    cursor: pointer;
+}
